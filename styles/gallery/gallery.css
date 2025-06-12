@@ -1,0 +1,15 @@
+.gallery {
+  padding: 64px 0;
+}
+.gallery h2 {
+  font-size: 32px;
+}
+
+.gallery-wrapper {
+  display: grid;
+  gap: 12px;
+}
+.gallery-wrapper div img {
+  display: block;
+  width: 100%;
+}/*# sourceMappingURL=gallery.css.map */
