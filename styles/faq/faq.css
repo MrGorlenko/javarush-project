@@ -1,0 +1,38 @@
+.FAQs {
+  padding: 64px 0;
+}
+.FAQs h2 {
+  font-size: 64px;
+}
+.FAQs .faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+.FAQs .faq-header h4 {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.FAQs .faq-header img {
+  display: block;
+  width: 13px;
+  height: 13px;
+  transition: transform 0.4s ease;
+}
+.FAQs .faq-body {
+  display: none;
+}
+.FAQs .faq-body-opened {
+  display: block;
+}
+.FAQs .faq-body p {
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.FAQs .item-opened {
+  transform: rotate(45deg);
+}/*# sourceMappingURL=faq.css.map */
